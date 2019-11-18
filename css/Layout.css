@@ -1,0 +1,103 @@
+main{
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-top: 1%;
+  padding-bottom: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-top: 5%;
+}
+.NomePrincipal{
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.LinksNavegacao{
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  text-decoration: none;
+  color: white;
+}
+.MenuHeader{
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-end;
+  position: relative;
+  height: 3.0 rem;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+h2, h3{
+  font-family: 'Ranga', cursive;
+}
+header h1{
+  font-family: 'Righteous', cursive;
+}
+header a{
+  font-family: 'Rajdhani', sans-serif;
+  text-decoration: none;
+}
+#seta{
+  background-color: black;
+  border-radius: 20%;
+  border: 2px solid silver;
+  font-size: 35px;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  color: white;
+}
+h1{
+  text-align: center;
+}
+header a:hover{
+  color: white;
+  font-weight: bolder;
+  font-size: 100%;
+  text-decoration: none;
+}
+.footer-section {
+	padding: 18px 0 16px;
+	overflow: hidden;
+	background: #252525;
+}
+
+.footer-menu {
+	list-style: none;
+	float: right;
+}
+
+.footer-menu li {
+	display: inline;
+}
+
+.footer-menu li a {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	color: #aeaeae;
+	margin-left: 30px;
+}
+canvas{  position: absolute;
+   top: 0px;
+   left: 0px;
+   z-index: 4;
+ }

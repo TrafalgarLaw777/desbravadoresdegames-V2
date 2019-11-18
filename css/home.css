@@ -1,0 +1,197 @@
+
+h2, h3{
+  font-family: 'Roboto', sans-serif;
+}
+
+ h1{
+  font-family: 'Righteous', cursive;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 99;
+  color: orange;
+  font-size: 20px;
+}
+
+header a{
+  font-family: 'Rajdhani', sans-serif;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+.NomePrincipal{
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.LinksNavegacao{
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  text-decoration: none;
+  color: white;
+}
+
+.MenuHeader{
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-end;
+  position: relative;
+  height: 3.0 rem;
+}
+
+.container{
+  margin-top: 20px;
+
+}
+
+body {
+  background-image: url("../img/pattern.png");
+  	background-repeat: repeat;
+}
+.review-section h2{
+  font-size:  300%;
+  color: #ffb320
+}
+.review-section p{
+  color: white;
+}
+.review-section h5{
+  font-size:  200%;
+  color: #ffb320
+}
+#seta{
+  background-color: black;
+  border-radius: 20%;
+  border: 2px solid silver;
+  font-size: 35px;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  color: white;
+}
+.projeto{
+  text-align: center;
+  margin-bottom: 60px;
+}
+.projeto p{
+  color: white;
+}
+.projeto h2{
+  font-size:  300%;
+  color: #ffb320
+}
+.footer-section {
+	padding: 18px 0 16px;
+	overflow: hidden;
+	background: #252525;
+}
+
+.footer-menu {
+	list-style: none;
+	float: right;
+}
+
+.footer-menu li {
+	display: inline;
+}
+
+.footer-menu li a {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 500;
+	color: #aeaeae;
+	margin-left: 30px;
+}
+
+.menu-navegacao {
+
+  position: absolute;
+  top: 20px;
+  right:0px;
+  margin-right: 20px;
+  z-index: 99;
+}
+.menu-navegacao li{
+
+  display: inline;
+  font-size: 18px;
+  margin-right: 10px;
+  font-weight: 200;
+
+}
+.menu-navegacao a{
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+}
+.branco{
+  color: white;
+}
+p{
+  font-weight: bold;
+}
+.hero-slider .hs-text .efeito p{
+
+ font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .review-section {
+    background-size: 1vh;
+
+  }
+
+  .menu-navegacao li{
+    opacity: 0;
+    right: 1000px;
+  }
+  h1{
+    left: calc(50% - 118px);
+  }
+  .hero-section{
+    text-align: center;
+  }
+}
+
+#abrir-desbravadores{
+  display: inline-block;
+  top: 25%;
+  right: 25%;
+  padding: 2%;
+  position: fixed;
+  opacity: 0;
+  border-radius: 2%;
+  background-color: black;
+  width: 45%;
+  height: 55%;
+  z-index: 1234567890;
+}
+
+#abrir-desbravadores:target{
+  opacity: 1;
+  pointer-events: auto;
+  animation: abrindo 1s ease 0s 1;
+}
+
+@keyframes abrindo {
+  from{
+      opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+video{
+  float: right;
+}
